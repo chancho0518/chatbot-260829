@@ -6,8 +6,8 @@ from openai import OpenAI
 load_dotenv()  # .env 파일에서 OPENAI_API_KEY를 읽어옴
 
 # ── 페이지 설정 ─────────────────────────────────────────────
-st.set_page_config(page_title="F 해독기", page_icon="🔍")
-st.title("🔍 F 해독기")
+st.set_page_config(page_title="T-F 번역기", page_icon="🔍")
+st.title("🔍 T-F 번역기")
 st.write("F가 한 말, 진짜 뜻이 궁금하면 여기에 던져봐.")
 
 # ── 페르소나 시스템 프롬프트 ──────────────────────────────────
